@@ -1,5 +1,6 @@
 # 📌Credit-Scoring-Prediction 💳📚📊
 La importancia de reducir el riesgo crediticio ha llevado a una institución financiera alemana a buscar soluciones innovadoras. Como científicos de datos, hemos sido convocados para construir un modelo de machine learning preciso y confiable que sea capaz de evaluar con mayor precisión la probabilidad de incumplimiento crediticio de sus clientes.
+![credito](https://github.com/JhonatanRC03/Credit-Scoring-Prediction/assets/132719375/468cac88-b150-4303-a7b4-dc27cff64e09)
 
 # 📌Las tareas principales serán:
 1. Preprocesamiento de Datos: Realizar limpieza de datos, manejar valores faltantes, codificación de variables categóricas y normalización/escalado de datos.
