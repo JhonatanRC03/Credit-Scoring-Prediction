@@ -12,6 +12,9 @@ La importancia de reducir el riesgo crediticio ha llevado a una institución fin
 
 # 📌Conclusiones:
 •	El modelo muestra una precisión sólida del 78%, lo que indica una buena capacidad para predecir correctamente a los buenos pagadores.
+
 •	La sensibilidad o recall del 87% es impresionante, sugiriendo que el modelo es eficiente al identificar la mayoría de los verdaderos buenos pagadores.
+
 •	El F1-score de 0.83 respalda la robustez del modelo al proporcionar un equilibrio entre precisión y recall, especialmente útil en situaciones donde evitar falsos positivos es crítico.
+
 Luego de estas conclusiones optamos por escoger el modelo Random Forest y la métrica Recall con una sensibilidad de 87% la cual va a identificar a la mayoría que son buenos pagadores 
