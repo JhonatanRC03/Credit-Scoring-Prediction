@@ -1,0 +1,342 @@
+Description of the German credit dataset.
+
+1. Title: German Credit data
+
+2. Source Information
+
+Professor Dr. Hans Hofmann  
+Institut f"ur Statistik und "Okonometrie  
+Universit"at Hamburg  
+FB Wirtschaftswissenschaften  
+Von-Melle-Park 5    
+2000 Hamburg 13 
+
+3. Number of Instances:  1000
+
+4.  Attribute description for german
+
+default:  (numerical)
+	       Category of customer
+               0 : Good customer
+	       1 : Bad customer
+
+account_check_status:  (qualitative)
+	       Status of existing checking account
+               1 : < 0 DM
+	       2 : 0 <= ... <  200 DM
+	       3 : >= 200 DM / salary assignments for at least 1 year
+               4 : no checking account
+
+duration_in_month:  (numerical)
+	      Duration in month
+	       1 :  1 <= ... < 12
+	       2 : 12 <= ... < 24
+	       3 : 24 <= ... < 36
+               4 : 36 <= ... < 48
+               5 : 48 <= ... < 60
+               6 : 60 <= ... < 72
+
+credit_history:  (qualitative)
+	      Credit history
+	       1 : no credits taken/all credits paid back duly
+               2 : all credits at this bank paid back duly
+	       3 : existing credits paid back duly till now
+               4 : delay in paying off in the past
+	       5 : critical account/other credits existing (not at this bank)
+
+purpose:  (qualitative)
+	      Purpose
+	       1 : car (new)
+	       2 : car (used)
+	       3 : furniture/equipment
+	       4 : radio/television
+	       5 : domestic appliances
+	       6 : repairs
+	       7 : education
+	       8 : (vacation - does not exist?)
+	       9 : retraining
+	      10 : business
+	      11 : others
+
+credit_amount:  (numerical)
+	      Credit amount
+	        1 :     1 <= ... <  1000
+	        2 :  1000 <= ... <  2000
+	        3 :  2000 <= ... <  3000
+                4 :  3000 <= ... <  4000
+                5 :  4000 <= ... <  5000
+                6 :  5000 <= ... <  6000
+	        7 :  6000 <= ... <  7000
+	        8 :  7000 <= ... <  8000
+                9 :  8000 <= ... <  9000
+               10 :  9000 <= ... < 10000
+               11 : 10000 <= ... < 11000
+               12 : 11000 <= ... < 12000
+               13 : 12000 <= ... < 13000
+               14 : 13000 <= ... < 14000
+               15 : 14000 <= ... < 15000
+               16 : 15000 <= ... < 16000
+               17 : 16000 <= ... < 17000
+               18 : 17000 <= ... < 18000
+               19 : 18000 <= ... < 19000
+               20 : 19000 <= ... < 20000
+
+savings:  (qualitative)
+	      Savings account/bonds
+	        5 :          ... <  100 DM
+	        4 :   100 <= ... <  500 DM
+	        3 :   500 <= ... < 1000 DM
+	        2 :          .. >= 1000 DM
+                1 :   unknown/ no savings account
+
+present_emp_since:  (qualitative)
+	      Present employment since
+	        5 : unemployed
+	        4 :       ... < 1 year
+	        3 : 1  <= ... < 4 years  
+	        2 : 4  <= ... < 7 years
+	        1 :       .. >= 7 years
+
+installment_as_income_perc:  (numerical)
+	      Installment rate in percentage of disposable income
+
+personal_status_sex:  (qualitative)
+	      Personal status and sex
+	      1 : male   : divorced/separated
+	      2 : female : divorced/separated/married
+              3 : male   : single
+	      4 : male   : married/widowed
+	      5 : female : single
+
+other_debtors: (qualitative)
+	      Other debtors / guarantors
+	      1 : none
+	      2 : co-applicant
+	      3 : guarantor
+
+present_res_since: (numerical)
+	      Present residence since
+
+property: (qualitative)
+	      Property
+	      1 : real estate
+	      2 : if not A121 : building society savings agreement/life insurance
+              3 : if not A121/A122 : car or other, not in attribute 6
+	      4 : unknown / no property
+
+age: (numerical)
+	      Age in years
+	       1 : 18 <= ... < 30
+	       2 : 30 <= ... < 40
+	       3 : 40 <= ... < 50
+               4 : 50 <= ... < 60
+               5 : 60 <= ... < 70
+               6 : 70 <= ... < 80
+
+other_installment_plans: (qualitative)
+	      Other installment plans 
+	       1 : bank
+	       2 : stores
+	       3 : none
+
+housing: (qualitative)
+	      Housing
+	       1 : rent
+	       2 : own
+	       3 : for free
+
+credits_this_bank: (numerical)
+              Number of existing credits at this bank
+
+job: (qualitative)
+	      Job
+	       1 : unemployed/ unskilled  - non-resident
+	       2 : unskilled - resident
+	       3 : skilled employee / official
+	       4 : management/ self-employed/highly qualified employee/ officer
+
+people_under_maintenance: (numerical)
+	      Number of people being liable to provide maintenance for
+
+telephone: (qualitative)
+	      Telephone
+	       0 : none
+	       1 : yes, registered under the customers name
+
+foreign_worker: (qualitative)
+	      foreign worker
+	       1 : yes
+	       0 : no
+
+ESPAÑOL
+Descripción del conjunto de datos crediticios alemanes.
+
+1. Título: Datos crediticios alemanes
+
+2. Información fuente
+
+Profesor Dr. Hans Hofmann
+Institut f'ur Statistik und 'Okonometrie
+Universidad de Hamburgo
+FB Wirtschaftswissenschaften
+Parque Von Melle 5
+2000 Hamburgo 13
+
+3. Número de instancias: 1000
+
+4. Descripción de atributos en alemán.
+
+predeterminado: (numérico)
+Categoría de cliente
+0: Buen cliente
+1: mal cliente
+
+account_check_status: (cualitativo)
+Estado de la cuenta corriente existente
+1: < 0 DM
+2: 0 <= ... < 200 DM
+3: >= 200 DM / asignaciones salariales durante al menos 1 año
+4: sin cuenta corriente
+
+duración_en_mes: (numérico)
+Duración en mes
+1: 1 <= ... < 12
+2: 12 <= ... < 24
+3: 24 <= ... < 36
+4: 36 <= ... < 48
+5: 48 <= ... < 60
+6: 60 <= ... < 72
+
+historial_crédito: (cualitativo)
+Historial de crédito
+1: no se han tomado créditos/todos los créditos se han devuelto debidamente
+2: todos los créditos en este banco reembolsados debidamente
+3: créditos existentes reembolsados debidamente hasta ahora
+4: retraso en el pago en el pasado
+5: cuenta crítica/otros créditos existentes (no en este banco)
+
+propósito: (cualitativo)
+Objetivo
+1: coche (nuevo)
+2: coche (usado)
+3: mobiliario/equipo
+4: radio/televisión
+5: electrodomésticos
+6: reparaciones
+7: educación
+8 : (vacaciones - ¿no existe?)
+9: reentrenamiento
+10: negocios
+11: otros
+
+monto_crédito: (numérico)
+Monto de crédito
+1:  1     <= ... < 1000
+2:  1000  <= ... < 2000
+3:  2000  <= ... < 3000
+4:  3000  <= ... < 4000
+5:  4000  <= ... < 5000
+6:  5000  <= ... < 6000
+7:  6000  <= ... < 7000
+8:  7000  <= ... < 8000
+9:  8000  <= ... < 9000
+10: 9000  <= ... < 10000
+11: 10000 <= ... < 11000
+12: 11000 <= ... < 12000
+13: 12000 <= ... < 13000
+14: 13000 <= ... < 14000
+15: 14000 <= ... < 15000
+16: 15000 <= ... < 16000
+17: 16000 <= ... < 17000
+18: 17000 <= ... < 18000
+19: 18000 <= ... < 19000
+20: 19000 <=...  < 20000
+
+ahorro: (cualitativo)
+Sin Cuenta de ahorros/bonos
+5 : ... < 100 DM
+4 : 100 <= ... < 500 DM
+3 : 500 <= ... < 1000 DM
+2 : .. >= 1000 DM
+                 1: desconocido/sin cuenta de ahorros
+
+present_emp_since: (cualitativo)
+Empleo actual desde
+5: desempleado
+4: ... < 1 año
+3: 1 <= ... < 4 años
+2: 4 <= ... < 7 años
+1 : .. >= 7 años
+
+installment_as_ Income_perc: (numérico)
+Tasa de pago a plazos en porcentaje del ingreso disponible
+
+personal_status_sex: (cualitativo)
+Estado personal y sexo.
+1: hombre: divorciado/separado
+2: mujer: divorciada/separada/casada
+3: hombre: soltero
+4: hombre: casado/viudo
+5: mujer: soltera
+
+otros_deudores: (cualitativo)
+Otros deudores/garantes
+1: ninguno
+2: co-solicitante
+3 : garante
+
+present_res_since: (numérico)
+Residencia actual desde
+
+propiedad: (cualitativa)
+Propiedad
+1: bienes raíces
+2: si no A121: acuerdo de ahorro de sociedad de construcción/seguro de vida
+3: si no A121/A122: automóvil u otro, no en el atributo 6
+4: desconocido/sin propiedad
+
+edad: (numérica)
+Edad en años
+1: 18 <= ... < 30
+2: 30 <= ... < 40
+3: 40 <= ... < 50
+                4: 50 <= ... < 60
+                5: 60 <= ... < 70
+                6: 70 <= ... < 80
+
+other_installment_plans: (cualitativo)
+Otros planes de pago
+1: banco
+2: tiendas
+3: ninguno
+
+vivienda: (cualitativa)
+Alojamiento
+1: alquiler
+2: propio
+3: gratis
+
+credits_this_bank: (numérico)
+               Número de créditos existentes en este banco
+
+trabajo: (cualitativo)
+Trabajo
+1: desempleados/no cualificados - no residente
+2: no calificado - residente
+3: empleado calificado/funcionario
+4: directivo/autónomo/empleado/funcionario altamente cualificado
+
+people_under_maintenance: (numérico)
+Número de personas responsables de proporcionar mantenimiento a
+
+teléfono: (cualitativo)
+Teléfono
+0: ninguno
+1: sí, registrado a nombre del cliente
+
+trabajador_extranjero: (cualitativo)
+trabajador extranjero
+1: si
+0: no
+
+
